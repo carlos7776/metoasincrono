@@ -1,7 +1,7 @@
 document.getElementById("bnt-env").addEventListener("click" , ajax);
 
 function ajax(event){
-    event.preventDefault();
+    event.preventDefault();//evitar q se envie el formulario
     var formElement = document.getElementById("myform");
     console.log("200")//probar si esta bien 
     const xhr = new XMLHttpRequest();
